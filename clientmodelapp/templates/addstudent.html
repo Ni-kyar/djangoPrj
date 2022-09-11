@@ -1,0 +1,12 @@
+<h1>Add Student</h1>
+
+<form action="addrecord/" method="post">
+{% csrf_token %}
+Roll Number:<br>
+<input name="roll">
+<br><br>
+Name:<br>
+<input name="name">
+<br><br>
+<input type="submit" value="Submit">
+</form>
